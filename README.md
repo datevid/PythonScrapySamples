@@ -9,7 +9,7 @@ scrapy startproject tutorial
 ```
 
 # spider05.py
-En este ejemplo muestra cómo extraemos todas las frases de la página y la guardamos en un archivo. Además nos vamos a la siguiente página para extraer todas sus frases, así sucesivamente hasta la última página. Para el guardado usamos la librería pandas y un archivo donde agregamos todas las frases de cada página.
+En este ejemplo muestra cómo extraemos todas las frases de la página y la guardamos en un archivo. Además nos vamos a la siguiente página parascrapear.com para extraer todas sus frases, así sucesivamente hasta la última página. Para el guardado usamos la librería pandas y un archivo donde agregamos todas las frases de cada página.
 para ejecutar spider05.
 
 Dentro de la carpeta spiders de su proyecto creado, crear el archivo spider05.py con el código que se encuentra en este repositorio. 
