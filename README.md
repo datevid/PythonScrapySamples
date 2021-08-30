@@ -1,7 +1,5 @@
 # scrapySamples
-# spider05.py
-En este ejemplo muestra cómo extraemos todas las frases de la página y la guardamos en un archivo. Además nos vamos a la siguiente página para extraer todas sus frases, así sucesivamente hasta la última página. Para el guardado usamos la librería pandas y un archivo donde agregamos todas las frases de cada página.
-para ejecutar spider05, debe primero crear el proyecto.
+Debe primero instalar Scrapy
 ```
 pip install Scrapy
 ```
@@ -9,9 +7,14 @@ Luego crear el proyecto
 ```
 scrapy startproject tutorial
 ```
-Dentro de la carpeta spiders crearse el archivo spider05.py con el código respectivo. 
 
-Para la ejecución de un solo archivo se realiza de la siguiente manera
+# spider05.py
+En este ejemplo muestra cómo extraemos todas las frases de la página y la guardamos en un archivo. Además nos vamos a la siguiente página para extraer todas sus frases, así sucesivamente hasta la última página. Para el guardado usamos la librería pandas y un archivo donde agregamos todas las frases de cada página.
+para ejecutar spider05.
+
+Dentro de la carpeta spiders de su proyecto creado, crear el archivo spider05.py con el código que se encuentra en este repositorio. 
+
+Para la ejecución de un solo archivo se realiza de la siguiente manera(No recomendado para éste ejemplo, pero sí para proyectos que implican extracción de una sola página)
 ```
 scrapy runspider --nolog spider05.py
 ```
