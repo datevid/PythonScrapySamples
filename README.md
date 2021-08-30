@@ -11,12 +11,13 @@ scrapy startproject tutorial
 ```
 Dentro de la carpeta spiders crearse el archivo spider05.py con el código respectivo. 
 
-Para la ejecución de un solo archivo se realiza de la siguiente manera:
+Para la ejecución de un solo archivo se realiza de la siguiente manera
 ```
 scrapy runspider --nolog spider05.py
 ```
 
 Para la ejecución de todo el proyecto debe usar el siguiente comando (Muy importate, la propiedad name se debe enviar al momento de la ejecución del código, en este caso es name = 'spider05'):
+Debe ejecutarse a la altura de scrapy.cfg
 ```
 scrapy crawl spider05
 ```
